@@ -1,6 +1,7 @@
 class CreateUserTable < ActiveRecord::Migration[7.0]
   def change
-    create_table :user_tables, :id,  do |t|
+    create_table :user_tables  do |t|
+      t.integer :id, primary_key: true
       t.string :first_name
       t.string :last_name
       t.string :username
