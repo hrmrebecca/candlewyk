@@ -3,6 +3,5 @@ development:
   encoding: unicode
   database: candlewyk
   pool: 5
-  username: blog
+  username: candlewyk
   password:
-  host: localhost
